@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default Suite]">
+  <test verbose="0" name="selenium_test1(failed)">
+    <classes>
+      <class name="com.nodetest.node1">
+        <methods>
+          <include name="testGrid" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.nodetest.node1 -->
+    </classes>
+  </test> <!-- selenium_test1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
